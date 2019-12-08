@@ -1,0 +1,12 @@
+server:
+  context-path: /emsPink
+
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  profiles:
+    active:  dev  # 激活测试配置
+
+
